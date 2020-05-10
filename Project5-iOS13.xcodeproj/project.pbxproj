@@ -13,6 +13,7 @@
 		8DA8D7DB2466A2B100A7D971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA8D7D92466A2B100A7D971 /* Main.storyboard */; };
 		8DA8D7DD2466A2B300A7D971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA8D7DC2466A2B300A7D971 /* Assets.xcassets */; };
 		8DA8D7E02466A2B300A7D971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA8D7DE2466A2B300A7D971 /* LaunchScreen.storyboard */; };
+		8DA8D7E82466EF9000A7D971 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8DA8D7E72466EF9000A7D971 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8DA8D7DC2466A2B300A7D971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DA8D7DF2466A2B300A7D971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DA8D7E12466A2B300A7D971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA8D7E72466EF9000A7D971 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				8DA8D7DC2466A2B300A7D971 /* Assets.xcassets */,
 				8DA8D7DE2466A2B300A7D971 /* LaunchScreen.storyboard */,
 				8DA8D7E12466A2B300A7D971 /* Info.plist */,
+				8DA8D7E72466EF9000A7D971 /* start.txt */,
 			);
 			path = "Project5-iOS13";
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DA8D7E02466A2B300A7D971 /* LaunchScreen.storyboard in Resources */,
+				8DA8D7E82466EF9000A7D971 /* start.txt in Resources */,
 				8DA8D7DD2466A2B300A7D971 /* Assets.xcassets in Resources */,
 				8DA8D7DB2466A2B100A7D971 /* Main.storyboard in Resources */,
 			);
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nesanoff.Project5-iOS13";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nesanoff.Project5-iOS13";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
